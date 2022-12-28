@@ -1,8 +1,5 @@
 {
   "name": "auto-hide-hook",
-  "repository": {
-    "url": "git://github.com/jimenezraul/auto-hide-hook.git"
-  },
   "version": "1.0.1",
   "description": "Autohide is a hook that close mobile menu bar when you scroll down or click outside the menu",
   "main": "useAutoHide.js",
