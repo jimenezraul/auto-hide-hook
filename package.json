@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raul Jimenez",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "@jimenezraul:registry": "https://npm.pkg.github.com"
+  }
 }
