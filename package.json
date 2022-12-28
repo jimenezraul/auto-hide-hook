@@ -1,11 +1,11 @@
 {
-  "name": "autohide",
+  "name": "@jimenezraul/auto-hide-hook",
   "version": "1.0.0",
-  "description": "",
+  "description": "Autohide is a hook that close mobile menu bar when you scroll down or click outside the menu",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Raul Jimenez",
   "license": "ISC"
 }
