@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export function useAutoHide(ref, setIsOpen) {
+export default function useAutoHide(ref, setIsOpen) {
   useEffect(() => {
     function handleClickOutside(event) {
       if (ref.current && !ref.current.contains(event.target)) {

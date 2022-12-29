@@ -30,7 +30,7 @@ useAutoHide(ref, setShow);
 
 ```js
 import React, { useRef, useState } from 'react';
-import useAutoHide from 'use-auto-hide';
+import useAutoHide from 'auto-hide-hook';
 
 const App = () => {
   const [show, setShow] = useState(false);
