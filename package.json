@@ -1,11 +1,18 @@
 {
   "name": "auto-hide-hook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Autohide is a hook that close mobile menu dropdown bar when you scroll down or click outside the dropdown bar",
   "main": "useAutoHide.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raul Jimenez",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^17.0.0 || ^16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimenezraul/auto-hide-hook"
+  }
 }
