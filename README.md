@@ -48,6 +48,18 @@ const App = () => {
 export default App;
 ```
 
+## CSS
+
+```css
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+```
+
 ## License
 
 [ISC](https://opensource.org/licenses/ISC)
