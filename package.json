@@ -1,6 +1,6 @@
 {
   "name": "auto-hide-hook",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Autohide is a hook that close mobile menu dropdown bar when you scroll down or click outside the dropdown bar",
   "keywords": [
     "hooks",
@@ -9,7 +9,8 @@
     "awesome hooks",
     "react hook",
     "auto hide hook",
-    "auto hide dropdown"
+    "auto hide dropdown",
+    "mobile menu auto hide"
   ],
   "main": "useAutoHide.js",
   "scripts": {
