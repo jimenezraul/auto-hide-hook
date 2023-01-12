@@ -1,3 +1,3 @@
 import useAutoHide from "./src/useAutoHide";
 
-export { useAutoHide };
+export default useAutoHide;
