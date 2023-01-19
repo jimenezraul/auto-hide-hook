@@ -4,6 +4,12 @@ export default function useAutoHide(ref, setIsOpen) {
   useEffect(() => {
     function handleClickOutside(event) {
       if (ref.current && !ref.current.contains(event.target)) {
+        
+        const hamburger = document.getElementById('hamburger');
+        if (hamburger && hamburger.contains(event.target)) {
+          return;
+        }
+
         setIsOpen(false);
         return;
       }
