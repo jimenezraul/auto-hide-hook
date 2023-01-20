@@ -1,4 +1,5 @@
-# Auto Hide Hook
+# Auto Hide Hook   
+![npm](https://img.shields.io/npm/dw/auto-hide-hook)
 
 ## Description
 
