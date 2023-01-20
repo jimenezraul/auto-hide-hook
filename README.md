@@ -8,10 +8,14 @@ This is a React hook that will hide mobile menu dropdown bar if you click, touch
 
 To use this hook you need to set a useRef to the element you want use as a reference and a setShow function to set the state of the element you want to hide. The hook will return a function that will hide the element when you click, touch or scroll outside of the element.
 
-## Install
+## Install npm or yarn
 
 ```
 npm i auto-hide-hook
+```
+or
+```
+yarn add auto-hide-hook
 ```
 
 ## Import
