@@ -28,7 +28,7 @@ import useAutoHide from 'auto-hide-hook';
 ## Parameters
 
 ```
-useAutoHide(ref, show, setShow);
+useAutoHide(ref, setShow);
 ```
 
 ## Example
@@ -40,13 +40,12 @@ import useAutoHide from 'auto-hide-hook';
 const App = () => {
   const [show, setShow] = useState(false);
   const ref = useRef(null);
-
-  useAutoHide(ref, show, setShow);
+  useAutoHide(ref, setShow);
 
   return (
     <div ref={ref}>
-      <button onClick={() => setShow(!show)}>Toggle</button>
       <div className={show ? 'show' : 'hide'}>Hello World</div>
+      <button onClick={() => setShow(!show)}>Toggle</button>
     </div>
   );
 };
