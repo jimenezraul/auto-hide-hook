@@ -28,7 +28,7 @@ import useAutoHide from 'auto-hide-hook';
 ## Parameters
 
 ```
-useAutoHide(ref, setShow);
+useAutoHide(ref, show, setShow);
 ```
 
 ## Example
@@ -40,7 +40,7 @@ import useAutoHide from 'auto-hide-hook';
 const App = () => {
   const [show, setShow] = useState(false);
   const ref = useRef(null);
-  
+
   useAutoHide(ref, show, setShow);
 
   return (
