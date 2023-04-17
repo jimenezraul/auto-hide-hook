@@ -40,12 +40,13 @@ import useAutoHide from 'auto-hide-hook';
 const App = () => {
   const [show, setShow] = useState(false);
   const ref = useRef(null);
-  useAutoHide(ref, setShow);
+  
+  useAutoHide(ref, show, setShow);
 
   return (
     <div ref={ref}>
-      <div className={show ? 'show' : 'hide'}>Hello World</div>
       <button onClick={() => setShow(!show)}>Toggle</button>
+      <div className={show ? 'show' : 'hide'}>Hello World</div>
     </div>
   );
 };
